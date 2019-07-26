@@ -1,0 +1,14 @@
+.main-header-background {
+  background-image: url("../img/main-header-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 673px;
+  border: 1px solid #707070;
+}
+.main-header-navigation-list {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
