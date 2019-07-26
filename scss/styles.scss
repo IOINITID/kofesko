@@ -159,3 +159,84 @@ body {
     font-weight: 400;
   }
 }
+
+.main-about-us-links {
+  a {
+    color: #3ed507;
+  }
+}
+
+.main-footer-background {
+  background-color: #171717;
+}
+
+.main-footer-wrapper {
+  padding: 140px 0;
+}
+
+.main-footer {
+  height: 183px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer-menu-item {
+  h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 15px;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        a {
+          color: #d9d9d9;
+          font-size: 14px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.main-footer-contacts {
+  address {
+    margin: 0;
+    margin-bottom: 25px;
+
+    a {
+      color: #ffffff;
+      font-size: 34px;
+      font-weight: 700;
+    }
+
+    p {
+      color: #d9d9d9;
+      font-size: 14px;
+      font-weight: 400;
+      margin: 0;
+      text-align: right;
+    }
+  }
+}
+
+.main-footer-socials {
+  width: 150px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer-logo {
+  img {
+    width: 200px;
+  }
+}

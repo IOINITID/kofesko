@@ -185,4 +185,83 @@ body {
   font-size: 10px;
   font-weight: 400;
 }
+
+.main-about-us-links a {
+  color: #3ed507;
+}
+
+.main-footer-background {
+  background-color: #171717;
+}
+
+.main-footer-wrapper {
+  padding: 140px 0;
+}
+
+.main-footer {
+  height: 183px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-footer-menu-item h2 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.main-footer-menu-item nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer-menu-item nav ul li a {
+  color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-footer-contacts address {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.main-footer-contacts address a {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.main-footer-contacts address p {
+  color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-align: right;
+}
+
+.main-footer-socials {
+  width: 150px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-footer-logo img {
+  width: 200px;
+}
 /*# sourceMappingURL=styles.css.map */
