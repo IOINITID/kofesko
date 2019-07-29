@@ -354,6 +354,7 @@ body {
 
 .inner-catalog {
   padding: 55px 0;
+
   h2 {
     padding-bottom: 55px;
   }
@@ -386,5 +387,31 @@ body {
         }
       }
     }
+  }
+}
+
+.branded-background {
+  background-image: url("../img/branded-background.jpg");
+  background-repeat: no-repeat;
+  height: 248px;
+  background-position: 50% 50%;
+}
+
+.branded-background-text {
+  background-image: url("../img/branded-background-text.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  height: 100%;
+  padding-top: 58px;
+
+  h2 {
+    margin: 0;
+    padding-bottom: 40px;
+  }
+
+  p {
+    width: 800px;
+    margin: 0;
   }
 }

@@ -415,4 +415,30 @@ body {
   font-weight: 400;
   line-height: 20px;
 }
+
+.branded-background {
+  background-image: url("../img/branded-background.jpg");
+  background-repeat: no-repeat;
+  height: 248px;
+  background-position: 50% 50%;
+}
+
+.branded-background-text {
+  background-image: url("../img/branded-background-text.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  height: 100%;
+  padding-top: 58px;
+}
+
+.branded-background-text h2 {
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.branded-background-text p {
+  width: 800px;
+  margin: 0;
+}
 /*# sourceMappingURL=styles.css.map */
