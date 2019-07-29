@@ -78,6 +78,23 @@ body {
   border: 1px solid #ffffff;
   padding: 5px 60px;
   display: block;
+  text-decoration: none;
+}
+
+.main-header-price-list a:hover, .main-header-price-list a:focus {
+  -webkit-box-shadow: 200px 0px #ffffff inset;
+          box-shadow: 200px 0px #ffffff inset;
+  color: #5c5c5c;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.main-header-cart-wrapper a:hover img,
+.main-header-cart-wrapper a:focus img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .main-header-contacts address {
@@ -246,6 +263,7 @@ body {
   color: #ffffff;
   font-size: 34px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .main-footer-contacts address p {

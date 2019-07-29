@@ -73,6 +73,25 @@ body {
     border: 1px solid #ffffff;
     padding: 5px 60px;
     display: block;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      box-shadow: 200px 0px #ffffff inset;
+      color: #5c5c5c;
+      transition: 0.2s linear;
+    }
+  }
+}
+
+.main-header-cart-wrapper {
+  a {
+
+    &:hover img,
+    &:focus img {
+      transform: scale(1.5);
+      transition: 0.2s linear;
+    }
   }
 }
 
@@ -228,6 +247,7 @@ body {
       color: #ffffff;
       font-size: 34px;
       font-weight: 700;
+      text-decoration: none;
     }
 
     p {
