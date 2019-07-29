@@ -4,17 +4,15 @@
 
 Главная страница сайта: 🖥️ https://ioinitid.github.io/kofesko/index.html
 
-Страница о нас: 🐱 https://ioinitid.github.io/kofesko/about.html
+Страница амаретто: 🐱 https://ioinitid.github.io/kofesko/amaretto.html
 
-Страница доставка: 🌳 https://ioinitid.github.io/kofesko/delivery.html
+Страница кофе для HoReCa: 🌳 https://ioinitid.github.io/kofesko/horeca.html
 
-Страница цены: 🦊 https://ioinitid.github.io/kofesko/prices.html
+Страница фирменный кофе: 🦊 https://ioinitid.github.io/kofesko/branded.html
 
-Страница статьи: 📝 https://ioinitid.github.io/kofesko/articles.html
+Страница условия сотрудничества: 📝 https://ioinitid.github.io/kofesko/conditions.html
 
 Страница контакты : 🐧 https://ioinitid.github.io/kofesko/contacts.html
-
-Страница карта сайта: 📝 https://ioinitid.github.io/kofesko/sitemap.html
 
 ------------
 
