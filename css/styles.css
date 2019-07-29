@@ -301,6 +301,15 @@ body {
   text-align: right;
 }
 
+.main-footer-contacts address p a {
+  font-size: 14px;
+  color: #d9d9d9;
+}
+
+.main-footer-contacts address p a:hover, .main-footer-contacts address p a:focus {
+  text-decoration: underline;
+}
+
 .main-footer-socials {
   width: 150px;
   margin-left: auto;
