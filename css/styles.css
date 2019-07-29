@@ -426,8 +426,8 @@ body {
 .branded-background-text {
   background-image: url("../img/branded-background-text.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
+  background-size: 1000px;
+  background-position: 0 100%;
   height: 100%;
   padding-top: 58px;
 }
@@ -440,5 +440,9 @@ body {
 .branded-background-text p {
   width: 800px;
   margin: 0;
+}
+
+.horeca-background-text {
+  background-image: url("../img/horeca-background-text.png");
 }
 /*# sourceMappingURL=styles.css.map */
