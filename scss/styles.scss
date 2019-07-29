@@ -98,11 +98,20 @@ body {
 .main-header-contacts {
   address {
     margin: 0;
+    overflow: hidden;
 
     a {
       color: #ffffff;
       font-size: 20px;
       font-weight: 700;
+      text-decoration: none;
+      box-shadow: -154px 1px 0 #ffffff;
+
+      &:hover,
+      &:focus {
+        box-shadow: 0 1px 0 #ffffff;
+        transition: 0.4s linear;
+      }
     }
 
     p {
@@ -197,7 +206,7 @@ body {
   p {
     width: 100%;
     margin: 0;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 400;
   }
 }
@@ -276,6 +285,36 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  a {
+
+    &:hover,
+    &:focus {
+      svg {
+        g {
+          fill: #ffffff;
+          stroke: none;
+        }
+
+        text {
+          fill: #000000;
+        }
+
+        path {
+          fill: #000000;
+        }
+      }
+
+      .instagram-icon {
+        path {
+
+          &:last-child {
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
 }
 
 .main-footer-logo {
@@ -324,17 +363,34 @@ body {
     border: 1px solid #5c5c5c;
     padding: 5px 60px;
     display: block;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      box-shadow: 200px 0px #5c5c5c inset;
+      color: #ffffff;
+      transition: 0.2s linear;
+    }
   }
 }
 
 .inner-header-contacts {
   address {
     margin: 0;
+    overflow: hidden;
 
     a {
       color: #5c5c5c;
       font-size: 20px;
       font-weight: 700;
+      text-decoration: none;
+      box-shadow: -154px 1px 0 #5c5c5c;
+
+      &:hover,
+      &:focus {
+        box-shadow: 0 1px 0 #5c5c5c;
+        transition: 0.4s linear;
+      }
     }
 
     p {
@@ -343,6 +399,17 @@ body {
       font-weight: 400;
       margin: 0;
       text-align: right;
+    }
+  }
+}
+
+.inner-header-cart-wrapper {
+  a {
+
+    &:hover img,
+    &:focus img {
+      transform: scale(1.5);
+      transition: 0.2s linear;
     }
   }
 }

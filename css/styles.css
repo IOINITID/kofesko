@@ -99,12 +99,23 @@ body {
 
 .main-header-contacts address {
   margin: 0;
+  overflow: hidden;
 }
 
 .main-header-contacts address a {
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
+  text-decoration: none;
+  -webkit-box-shadow: -154px 1px 0 #ffffff;
+          box-shadow: -154px 1px 0 #ffffff;
+}
+
+.main-header-contacts address a:hover, .main-header-contacts address a:focus {
+  -webkit-box-shadow: 0 1px 0 #ffffff;
+          box-shadow: 0 1px 0 #ffffff;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 .main-header-contacts address p {
@@ -224,7 +235,7 @@ body {
 .main-about-us-features-item p {
   width: 100%;
   margin: 0;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
 }
 
@@ -304,6 +315,23 @@ body {
           align-items: center;
 }
 
+.main-footer-socials a:hover svg g, .main-footer-socials a:focus svg g {
+  fill: #ffffff;
+  stroke: none;
+}
+
+.main-footer-socials a:hover svg text, .main-footer-socials a:focus svg text {
+  fill: #000000;
+}
+
+.main-footer-socials a:hover svg path, .main-footer-socials a:focus svg path {
+  fill: #000000;
+}
+
+.main-footer-socials a:hover .instagram-icon path:last-child, .main-footer-socials a:focus .instagram-icon path:last-child {
+  fill: #ffffff;
+}
+
 .main-footer-logo img {
   width: 200px;
 }
@@ -353,16 +381,36 @@ body {
   border: 1px solid #5c5c5c;
   padding: 5px 60px;
   display: block;
+  text-decoration: none;
+}
+
+.inner-header-price-list a:hover, .inner-header-price-list a:focus {
+  -webkit-box-shadow: 200px 0px #5c5c5c inset;
+          box-shadow: 200px 0px #5c5c5c inset;
+  color: #ffffff;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .inner-header-contacts address {
   margin: 0;
+  overflow: hidden;
 }
 
 .inner-header-contacts address a {
   color: #5c5c5c;
   font-size: 20px;
   font-weight: 700;
+  text-decoration: none;
+  -webkit-box-shadow: -154px 1px 0 #5c5c5c;
+          box-shadow: -154px 1px 0 #5c5c5c;
+}
+
+.inner-header-contacts address a:hover, .inner-header-contacts address a:focus {
+  -webkit-box-shadow: 0 1px 0 #5c5c5c;
+          box-shadow: 0 1px 0 #5c5c5c;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 .inner-header-contacts address p {
@@ -371,6 +419,14 @@ body {
   font-weight: 400;
   margin: 0;
   text-align: right;
+}
+
+.inner-header-cart-wrapper a:hover img,
+.inner-header-cart-wrapper a:focus img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
 }
 
 .inner-header-navigation nav ul li .current {
