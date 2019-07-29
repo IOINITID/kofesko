@@ -140,6 +140,16 @@ body {
   padding-bottom: 120px;
 }
 
+.main-about-us-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+}
+
 .main-about-us-text-wrapper {
   flex-direction: column;
   justify-content: space-between;
