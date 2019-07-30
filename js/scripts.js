@@ -8,7 +8,6 @@ var slideout = new Slideout({
 
 slideout.disableTouch();
 
-// Toggle button
 document.querySelector('.open-button').addEventListener('click', function() {
   slideout.open();
 });
