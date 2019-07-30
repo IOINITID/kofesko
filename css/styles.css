@@ -743,5 +743,8 @@ body {
   .mobile-main-menu p a {
     color: rgba(255, 255, 255, 0.5);
   }
+  .slideout-menu {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
